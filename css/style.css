@@ -1,0 +1,70 @@
+body {
+
+    background: #0f172a;
+
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    border-radius: 20px;
+}
+
+.banner {
+
+    background:
+        linear-gradient(135deg,
+            #06b6d4,
+            #0891b2);
+
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 600px;
+}
+
+.banner-content {
+    text-align: center;
+    padding: 40px;
+}
+
+.banner h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.nav-pills .nav-link.active {
+    background: #06b6d4;
+}
+
+.form-control:focus {
+
+    border-color: #06b6d4;
+
+    box-shadow:
+        0 0 0 .25rem rgba(6, 182, 212, .25);
+}
+
+.btn-info {
+    background: #06b6d4;
+    border: none;
+}
+
+.btn-info:hover {
+    background: #0891b2;
+}
+
+@media(max-width:768px) {
+
+    .banner {
+        min-height: 250px;
+    }
+
+    .banner h1 {
+        font-size: 2rem;
+    }
+
+}
